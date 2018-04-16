@@ -1,0 +1,89 @@
+* {margin:0; overflow:0;}
+
+html {font-size:62.5%;}
+h1 {background-color: green; color : white; text-align:center; font-size:30px; text-shadow: 3px 3px 3px #000;}
+p { font-size:20px; color: white; margin-top: 10px;}
+#wrapper {
+	background-color:#006600;
+	width: 900px;
+	height: 800px;
+	margin:0 auto 80px auto;
+}
+#header {
+	background-color:#006600;
+	width:900;
+	height:150px;
+	background-image:url(../img/head.jpg);
+	background-repeat:no-repeat;
+}
+#content {
+	background-color: transparent;
+	height:650px;
+	width:900px;
+}
+#menu  {
+	background-color:#0099CC;
+	width:860px;
+	height:40px;
+	list-style:none;
+	border-bottom: 3px solid yellow;
+}
+#menu li {border-right: solid 1px white; float: left; height: 30px;}
+#menu li a {
+	color:#FFFFFF;
+	font-family: arial, verdana, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	display:block;
+	padding:9px 20px;
+	text-decoration:none;
+}
+#menu li:hover {background-color: red; position: relative;}
+#menu-kanan {
+	height:40px;
+	list-style:none;
+}
+#menu-kanan li a {
+	color:#FFFFFF;
+	font-family: arial, verdana, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	display:block;
+	padding:9px 20px;
+	text-decoration:none;
+}
+#menu-kanan li:hover {background-color: red; position: relative; width:100px;}
+#kiri {
+	float:left;
+	background-color: lightblue;
+	width:200px;
+	height: 650px;
+}
+#kiri img {
+	width: 150px;
+	height:200px;
+	margin-left: 23px;
+	margin-top: 10px;
+}
+#tengah {
+	float:left;
+	background-color:#0033CC;
+	width:500px;
+	height:650px;
+}
+#kanan {
+	float:right;
+	background-color:#0066FF;
+	width : 200px;
+	height: 650px;
+}	
+#footer {
+	background-color:#0000FF;
+	width:900px;
+	height:50px;
+	font-size: 25px;
+	text-align:center;
+	padding-top:15px;
+	color:white;
+}
+#footer a {color:white;}
